@@ -19,6 +19,7 @@ const FormikFormGroup = ({ component, label, name, type, help, validate, ...rest
                help={help}
                label={label}
                id={name}
+               validate={validate}
                name={name}
                component={component}
                labelClassName="col-sm-3"
